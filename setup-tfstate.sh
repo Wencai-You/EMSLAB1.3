@@ -8,7 +8,7 @@ set -Eeuo pipefail
 # ==========================
 
 # ---- Defaults (override via env or flags) ----
-LOCATION="${LOCATION:-westeurope}"
+LOCATION="${LOCATION:-Switzerland North}"
 RESOURCE_GROUP="${RESOURCE_GROUP:-ems-tfstate-rg}"
 NAME_BASE="${NAME_BASE:-emstfstate}"   # lowercase/numbers
 CONTAINER="${CONTAINER:-tfstate}"
